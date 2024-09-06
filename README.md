@@ -19,7 +19,7 @@ pip install pandas scikit-learn numpy
 
 # Proje Akışı
 Kullanıcıdan Veri Alma: Kilo, Metre ve İşlem Grubu bilgileri kullanıcıdan alınır.
-## Veri Ön İşleme:
+-  Veri Ön İşleme:
 - Kategorik Veriler: İşlem Grubu gibi kategorik veriler Label Encoding ile sayısal değerlere dönüştürülür.
 - Sayısal Veriler: Kilo ve Metre gibi sayısal veriler MinMaxScaler kullanılarak ölçeklendirilir.
 - Tahmin Yapma: Eğitilmiş Gradient Boosting modeli ile sevk irsaliye tarihine kadar kaç gün kaldığı tahmin edilir.
